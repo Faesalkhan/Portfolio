@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="pofolio.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md bg-light">
+        <div class="container">
+          <h4><a href="">Portfolio</a></h4>
+          <button
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsible"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsible">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="hero" class="min-vh-100 d-flex align-items-center mb-3">
+        <div class="container">
+          <div class="row">
+            <div class="col position-relative overflow-hidden">
+              <img src="img/tech.jpg" class="img-fluid" alt="" />
+              <div
+                class="overlay-text position-absolute top-50 text-white ms-3"
+              >
+                <h4>Hi👋, I am</h4>
+                <h1 class="display-1 myname"><strong>Faisal Khan</strong></h1>
+                <h4>I am React.js Developer</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="py-5">
+        <div class="container bg-light">
+          <div class="row align-items-center">
+            <h2 class="text-center display-5 myname pb-3">About me</h2>
+            <div class="col-sm-5 col-lg-4">
+              <img src="img/profile1.jpg" class="img-fluid" alt="" />
+            </div>
+            <div class="col-sm-7 col-lg-8">
+              <h6>I'm Faisal Khan and I'm a React.js Developer.</h6>
+              <p>
+                I'm a React.js Developer. My journey in web development has been
+                driven by a personal passion to learn. I have independently
+                acquired a diverse skill set and have a strong passion for
+                building engaging digital experiences.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="py-5">
+        <div class="container">
+          <div class="row bg-dark text-white py-3">
+            <h2 class="text-center display-5 myname py-3">Skills</h2>
+            <div class="col-7 px-5">
+              <p>
+                I'm a React Js Developer with a passion for learning. I am
+                highly motivated and constantly seeking to improve my skills. I
+                have good knowledge of JavaScript and React Js, Parcel js,
+                Redux, HTML, CSS, Bootstrap, Git.
+              </p>
+            </div>
+            <div class="col-5">
+              <img src="img/skills.png" class="img-fluid w-75" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="py-5">
+        <div class="container bg-light p-3">
+          <h2 class="display-5 text-center myname">Projects</h2>
+          <div
+            id="carouselExampleControls"
+            class="carousel slide p-5 mb-2"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item border-cust active">
+                <img src="img/Foodic.png" class="d-block w-100" alt="..." />
+                <div class="overlay text-center display-5">
+                  <h6 class="display-5 myname">Foodic App</h6>
+                  <p><a href="" class="text-dark">Link of the project</a></p>
+                </div>
+              </div>
+              <div class="carousel-item border-cust">
+                <img src="img/LBS.png" class="d-block w-100" alt="..." />
+                <div class="overlay text-center display-5">
+                  <h6 class="display-5 myname">Little Book Store</h6>
+                  <p><a href="" class="">Link of the project</a></p>
+                </div>
+              </div>
+              <div class="carousel-item border-cust">
+                <img
+                  src="img/Web Designers.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="overlay text-center display-5">
+                  <h6 class="display-5 myname">Web Designers portfolio</h6>
+                  <p><a href="" class="">Link of the project</a></p>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="py-5 text-white">
+        <div class="container bg-dark p-4">
+          <div class="row">
+            <div class="col-md-12 mb-3">
+              <h2 class="myname display-5 text-center">CONTACT</h2>
+            </div>
+            <div class="col-md-6 mb-3">
+              <div class="border-cust p-3 d-flex">
+                <img
+                  src="img/circle.png"
+                  class="contact-imgs img-fluid"
+                  alt=""
+                />
+                <div class="ms-2">
+                  <h5>Name</h5>
+                  <p>Faisal Khan</p>
+                </div>
+              </div>
+              <div class="border-cust p-3 d-flex">
+                <img src="img/gps.png" class="contact-imgs img-fluid" alt="" />
+                <div class="ms-2">
+                  <h5>Address</h5>
+                  <p>Aurangabad, Maharashtra</p>
+                </div>
+              </div>
+              <div class="border-cust p-3 d-flex">
+                <img
+                  src="img/message.png"
+                  class="contact-imgs img-fluid"
+                  alt=""
+                />
+                <div class="ms-2">
+                  <h5>Email</h5>
+                  <p>pathanf9545@gmail.com</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 border-cust p-3">
+              <form action="" class="form">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" id="name" class="form-control" />
+                <label for="emailid" class="form-label">Email</label>
+                <input type="email" id="emailid" class="form-control" />
+                <label for="messagebox" class="form-label">Message</label>
+                <br />
+                <textarea
+                  name="messagebox"
+                  id="messagebox"
+                  rows="5"
+                  class="form-control"
+                  placeholder="type your message here..."
+                ></textarea>
+                <br />
+                <button type="submit" class="btn btn-primary">
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col mb-0 mt-4 p-3 text-center">
+            <p>Created by <a href="">Faisal Khan</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <a href="#" class="scrolltotop rounded-pill"
+      ><img src="img/home.png" alt=""
+    /></a>
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
+</html>

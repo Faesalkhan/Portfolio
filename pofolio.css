@@ -1,0 +1,30 @@
+.nav-link{
+    margin-inline: 1rem;
+}
+.myname{
+    font-weight: 500;
+}
+.border-cust{
+    border: 1px solid black;
+}
+.border-cust:hover{
+    border: 2px solid rgb(74, 138, 207);
+}
+
+.carousel-item{
+    overflow: hidden;
+}
+.carousel-item .overlay{
+    transition: all 0.5s ease-in-out;
+}
+.contact-imgs{
+    width: 70px;
+    height: auto;
+}
+.scrolltotop{
+    background-color: #82a9d0;
+    padding: 1rem;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
