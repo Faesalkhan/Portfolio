@@ -58,3 +58,30 @@
 // let inputString = prompt("enter a string");
 // let stringLength = inputString.length;
 // console.log(stringLength);
+
+// to calculalte string's length without using func strlen-------------------------------------------------------
+// let inputString = prompt("enter a string");
+// let stringLength = 0;
+// for (let ch of inputString) {
+//   stringLength++;
+// }
+// console.log(stringLength);
+
+// to reverse the string-------------------------------------------------------
+// let inputString = prompt("enter a string");
+// let reversedString = "";
+// for (let i = inputString.length - 1; i >= 0; i--) {
+//   reversedString = reversedString + inputString[i];
+// }
+// console.log(inputString);
+// console.log(reversedString);
+
+// calculate area of circle-------------------------------------------------------
+// let radius = parseFloat(prompt("enter the radius of the circle : "));
+
+// if (!isNaN(radius) && radius > 0) {
+//   let area = Math.PI * Math.pow(radius, 2);
+//   console.log(area);
+// } else {
+//   console.log("plz enter a valid number");
+// }
