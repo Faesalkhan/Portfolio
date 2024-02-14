@@ -85,3 +85,22 @@
 // } else {
 //   console.log("plz enter a valid number");
 // }
+// print table of N / user choice --------------------------------------------------
+// let n = parseInt(prompt("enter a no."));
+// if (!isNaN(n) && n > 0) {
+//   for (let i = 1; i <= 10; i++) {
+//     console.log(`${n} * ${i} = ${n * i}`);
+//   }
+// } else {
+//   console.log("plz enter a valid no.");
+// }
+
+// print first 10 numbers using loop-------------------------------------------------------
+// for (let i = 1; i <= 10; i++) {
+//   console.log(i);
+// }
+
+// print first 10 numbers in reverse order using loop-------------------------------------------------------
+// for (let i = 10; i > 0; i--) {
+//   console.log(i);
+// }
