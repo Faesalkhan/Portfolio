@@ -104,3 +104,49 @@
 // for (let i = 10; i > 0; i--) {
 //   console.log(i);
 // }
+
+// print first N numbers using loop-------------------------------------------------------
+
+// let n = parseInt(prompt("enter the value N :"));
+// if (!isNaN(n) && n > 0) {
+//   for (let i = 1; i <= n; i++) {
+//     console.log(i);
+//   }
+// } else {
+//   console.log("plz enter the valid number");
+// }
+
+// print first 10 even no.s using loop-------------------------------------------------------
+
+// for (let i = 2; i <= 20; i += 2) {
+//   console.log(i);
+// }
+
+// or----------------
+
+// let num = parseInt(prompt("enter a table value"));
+// if (num > 0 && !isNaN(num)) {
+//   for (let i = 1; i <= num; i++) {
+//     console.log(`${i}`);
+//   }
+// } else {
+//   console.log("invalid no.");
+// }
+// print first 10 odd no.s using loop-------------------------------------------------------
+
+// for (let i = 1; i <= 20; i += 2) {
+//   console.log(i);
+// }
+
+// or------------------
+
+// let rad = parseInt(prompt("enter a table value"));
+// if (rad > 0 && !isNaN(rad)) {
+//   for (let i = 1; i <= rad; i++) {
+//     if (i % 2 === 0) {
+//       console.log(i);
+//     }
+//   }
+// } else {
+//   console.log("invalid no.");
+// }
