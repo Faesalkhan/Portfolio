@@ -221,3 +221,15 @@
 // }
 // const result = calcOddSum(5);
 // console.log(result);
+// count the digits in number--------------------------------------------
+
+// let number = parseInt(prompt("enter a number"));
+// if (!isNaN(number)) {
+//   let num = number.toString().length;
+//   console.log(num);
+// }
+
+// or-----------
+
+// let num = prompt("enter a table value");
+// console.log(num.length);
