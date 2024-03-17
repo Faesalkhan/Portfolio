@@ -150,3 +150,74 @@
 // } else {
 //   console.log("invalid no.");
 // }
+// print first N even no.s using loop-------------------------------------------------------
+
+// let n = parseInt(prompt("enter value of N :"));
+// if (!isNaN(n) && n > 0) {
+//   for (let i = 2; i <= n; i += 2) {
+//     console.log(i);
+//   }
+// } else {
+//   console.log("plz enter a valid number");
+// }
+
+// print first N odd no.s using loop--------------------------------------------
+
+// let n = parseInt(prompt("enter value of N :"));
+// if (!isNaN(n) && n > 0) {
+//   for (let i = 1; i <= n; i += 2) {
+//     console.log(i);
+//   }
+// } else {
+//   console.log("plz enter a valid number");
+// }
+
+// calculate sum of N no.s--------------------------------------------
+
+// let num = parseInt(prompt("enter a number"));
+// let sum = 0;
+// if (!isNaN(num && num >= 0)) {
+//   for (let i = 1; i <= num; i++) {
+//     sum = sum + i;
+//   }
+//   console.log(sum);
+// } else {
+//   console.log("enter a valid no.");
+// }
+
+// calculate multipy/factorial of N no.s--------------------------------------------
+
+// let num = parseInt(prompt("enter a number"));
+// let mul = 1;
+// if (!isNaN(num && num >= 0)) {
+//   for (let i = 1; i <= num; i++) {
+//     mul = mul * i;
+//   }
+//   console.log(mul);
+// } else {
+//   console.log("enter a valid no.");
+// }
+
+// print sum of first N even no.s-------------------------------------------- 2+4+6+8+10
+
+// function calcOddSum(n) {
+//   let sum = 0;
+//   for (let i = 1; i <= n; i++) {
+//     sum += 2 * i;
+//   }
+//   return sum;
+// }
+// const result = calcOddSum(5);
+// console.log(result);
+
+// print sum of first N odd no.s--------------------------------------------1+3+5+7+9
+
+// function calcOddSum(n) {
+//   let sum = 0;
+//   for (let i = 1; i <= n; i++) {
+//     sum += 2 * i + 1;
+//   }
+//   return sum;
+// }
+// const result = calcOddSum(5);
+// console.log(result);
