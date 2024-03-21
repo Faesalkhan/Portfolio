@@ -1,30 +1,122 @@
-.nav-link{
-    margin-inline: 1rem;
+/*----------- Header --------------*/
+.header-container button{
+    font-size: 2vw;
+    padding: 4px;
 }
-.myname{
+.header-container h4 a{
+    font-size: 2vw;
+}
+.header-container ul li a{
+    font-size: 1.4vw;
     font-weight: 500;
 }
-.border-cust{
-    border: 1px solid black;
+.header-container ul li a:hover{
+    background-color: #a0ccfb;
 }
-.border-cust:hover{
-    border: 2px solid rgb(74, 138, 207);
+.header-container .content{
+    height: fit-content;
 }
 
-.carousel-item{
-    overflow: hidden;
+/*----------- Hero --------------*/
+.hero-container img{
+    height: 55vh;
+    width: 100%;
 }
-.carousel-item .overlay{
-    transition: all 0.5s ease-in-out;
+.hero-container h4{
+    font-size: 3vw;
 }
-.contact-imgs{
-    width: 70px;
+.hero-container h1{
+    font-weight: 500;
+    font-size: 4vw;
+}
+
+/*----------- About --------------*/
+.about-container h4{
+    font-size: 3vw;
+}
+.about-container img{
+    width: 20vw;
+}
+.about-container p,
+.about-container h6{
+    font-size: 1.4vw;
+}
+
+/*----------- Skills --------------*/
+.skills-container h4{
+    font-size: 3vw;
+}
+.skills-container img{
+    width: 17vw;
+}
+.skills-container p{
+    font-size: 1.4vw;
+}
+
+/*----------- Projects --------------*/
+.projects-container h4{
+    font-size: 3vw;
+}
+.projects-container h5{
+    font-size: 2vw;
+}
+.projects-container a{
+    font-size: 1.3vw;
+}
+
+/*----------- Contact --------------*/
+.contact-container h4{
+    font-size: 3vw;
+}
+.contact-container img{
+    width: 4vw;
+    height: 4vw;
+}
+.contact-container h5{
+    font-size: 2vw;
+}
+.contact-container p{
+    font-size: 1.1vw;
+}
+.contact-container input{
+    height: 4vh;
+    font-size: 1.3vw;
+}
+.contact-container label{
+    font-size: 2vw;
+}
+.contact-container textarea{
     height: auto;
+}
+.contact-container button{
+    font-size: 1.5vw;
+}
+.border-hover{
+    border: 1px solid black;
+}
+.border-hover:hover{
+    border: 2px solid rgb(74, 138, 207);
+}
+/*----------- Footer --------------*/
+.footer-container p{
+    font-size: 2vw;
+}
+
+.scrolltotop img{
+    width: 3vw;
 }
 .scrolltotop{
     background-color: #82a9d0;
-    padding: 1rem;
     position: fixed;
+    padding: 1vw;
     bottom: 10px;
     right: 10px;
 }
+
+@media (max-width : 900px){
+    .contact-container input{
+        height: 2vh;
+        font-size: 1vw;
+    }
+}
+
