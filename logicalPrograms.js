@@ -233,3 +233,35 @@
 
 // let num = prompt("enter a table value");
 // console.log(num.length);
+
+// calculate the sum of digits of number--------------------------------------------
+
+// let number = parseInt(prompt("Enter a number :"));
+// if (!isNaN(number)) {
+//   let numberString = number.toString();
+//   let sum = 0;
+//   for (let digit of numberString) {
+//     sum += parseInt(digit);
+//   }
+//   console.log(sum);
+// } else {
+//   console.log("plz enter valid number");
+// }
+
+// or----------------------
+
+// let num = prompt("enter a number");
+// let sum = 0;
+// for (let i of num) {
+//   sum += parseInt(i);
+// }
+// console.log(sum);
+
+// or-------------------
+
+// let num = prompt("enter a number");
+// let sum = 0;
+// for (let i = 0; i < num.length; i++) {
+//   sum += parseInt(num[i]);
+// }
+// console.log(sum);
