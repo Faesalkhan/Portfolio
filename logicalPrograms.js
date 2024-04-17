@@ -296,3 +296,15 @@
 //   str += num[i];
 // }
 // console.log(str);
+
+// lcm of two no.s--------------------------------------------
+
+// let a = 4;
+// let b = 6;
+
+// for (let i = 1; i <= a * b; i++) {
+//   if (i % a === 0 && i % b === 0) {
+//     console.log(i);
+//     break;
+//   }
+// }
