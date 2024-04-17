@@ -265,3 +265,34 @@
 //   sum += parseInt(num[i]);
 // }
 // console.log(sum);
+
+// to reverse a number--------------------------------------------
+
+// let number = 12345;
+// let revN = 0;
+// while (number > 0) {
+//   let remainder = number % 10;
+//   revN = revN * 10 + remainder;
+//   number = Math.floor(number / 10);
+// }
+// console.log(revN);
+
+// or---------------------
+
+// let num = 12345;
+// let rev = "";
+// while (num > 0) {
+//   let rem = num % 10;
+//   rev += rem.toString();
+//   num = Math.floor(num / 10);
+// }
+// console.log(rev);
+
+// or---------------------
+
+// let num = prompt("enter a number");
+// str = "";
+// for (let i = num.length - 1; i >= 0; i--) {
+//   str += num[i];
+// }
+// console.log(str);
