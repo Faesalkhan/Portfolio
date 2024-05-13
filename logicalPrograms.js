@@ -308,3 +308,30 @@
 //     break;
 //   }
 // }
+
+// calculate x power of y--------------------------------------------
+
+// let result = 1;
+// let x = 2;
+// let y = 3;
+// for (let i = 1; i <= y; i++) {
+//   result = result * x;
+// }
+// console.log(result);
+
+// or-------------------
+
+// function calcpower(x, y) {
+//   let result = 1;
+//   for (let i = 1; i <= y; i++) {
+//     result = result * x;
+//   }
+//   return result;
+// }
+// const power = calcpower(2, 4);
+// console.log(power);
+
+// or-------------------
+
+// let res = Math.pow(2, 3);
+// console.log(res);
