@@ -335,3 +335,39 @@
 
 // let res = Math.pow(2, 3);
 // console.log(res);
+
+// check if no is prime or not--------------------------------------------
+
+// function primeNo(n) {
+//   if (n <= 1) {
+//     return false;
+//   }
+//   for (let i = 2; i <= n; i++) {
+//     if (n % i === 0) {
+//       return false;
+//     }
+//     return true;
+//   }
+// }
+// const result = primeNo(8);
+// console.log(result);
+
+// or-------------------
+
+// function isPrime(n) {
+//   if (n <= 1) {
+//     return false;
+//   }
+//   for (let i = 2; i <= Math.sqrt(n); i++) {
+//     if (n % i === 0) {
+//       return false;
+//     }
+//   }
+//   return true;
+// }
+// const result = isPrime(11);
+// console.log(result);
+
+// // here we just wrote sq root of number instead of numer itself (loop will go upto sqrt instead of no. itself).
+// (any no. dividing the n will also divide its sq root ) makes no difference.
+// // if it is prime no. it'll return true else false.
