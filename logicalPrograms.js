@@ -371,3 +371,39 @@
 // // here we just wrote sq root of number instead of numer itself (loop will go upto sqrt instead of no. itself).
 // (any no. dividing the n will also divide its sq root ) makes no difference.
 // // if it is prime no. it'll return true else false.
+
+// print all prime no.s b/n 2-100 --------------------------------------------
+
+// let a, b;
+// for (a = 1; a <= 100; a++) {
+//   for (b = 2; b <= a; b++) {
+//     if (a % b === 0) {
+//       break;
+//     }
+//   }
+//   if (a === b) {
+//     console.log(a);
+//   }
+// }
+
+// or----------------------
+
+// function isPrime(n) {
+//   if (n <= 1) {
+//     return false;
+//   }
+//   for (let i = 2; i <= Math.sqrt(n); i++) {
+//     if (n % i === 0) {
+//       return false;
+//     }
+//   }
+//   return true;
+// }
+// function printPrimeRange(st, en) {
+//   for (let i = st; i <= en; i++) {
+//     if (isPrime(i)) {
+//       console.log(i);
+//     }
+//   }
+// }
+// printPrimeRange(2, 100);
