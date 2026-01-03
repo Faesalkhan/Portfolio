@@ -47,32 +47,33 @@
     </header>
     <main>
       <section id="hero">
-        <div class="container-fluid hero-container">
-          <div class="row">
-            <div class="col card border-0 text-white">
-              <img src="img/hero-image.jpg" class="card-img" alt="" />
-              <div class="card-img-overlay p-5 pt-sm-3">
-                <h4>Hi👋, I am</h4>
-                <h2><strong>Faisal Khan</strong></h2>
-                <h4>I am React JS Developer</h4>
-              </div>
-            </div>
+        <div class="container-fluid hero-container heroImageSection mx-auto">
+          <div class="p-4 p-lg-2 text-white">
+            <h4>Hi👋, I am</h4>
+            <h2><strong>Faisal Khan</strong></h2>
+            <h4>I am Frontend Developer</h4>
           </div>
         </div>
       </section>
 
       <section id="about" class="my-3 my-md-5">
         <div class="container bg-light about-container">
-          <div class="row justify-content-evenly align-items-center py-3">
-            <div class="col-12">
-              <h4 class="text-center py-1 py-md-2 text-decoration-underline">
-                ABOUT ME
-              </h4>
+          <div class="col-12">
+            <h4 class="text-center py-1 py-md-2 text-decoration-underline">
+              ABOUT ME
+            </h4>
+          </div>
+          <div class="d-md-flex justify-content-evenly align-items-center py-3">
+            <div
+              class="col-md-4 d-flex justify-content-center align-items-center"
+            >
+              <img
+                src="img/pro pic1.jpg"
+                class="img-fluid rounded-3"
+                alt="profile picture"
+              />
             </div>
-            <div class="col-4 d-flex justify-content-center align-items-center">
-              <img src="img/pro pic1.jpg" class="img-fluid" alt="" />
-            </div>
-            <div class="col-6">
+            <div class="col-9 mx-auto col-md-6 py-3">
               <h6>I'm Faisal Khan and I'm a React.js Developer.</h6>
               <p>
                 I'm a React.js Developer. My journey in web development has been
@@ -99,8 +100,9 @@
               <p>
                 I'm a React Js Developer with a passion for learning. I am
                 highly motivated and constantly seeking to improve my skills. I
-                have good knowledge of JavaScript and React Js, Parcel js, Redux
-                Toolkit, HTML5, CSS3, Bootstrap, Git.
+                have good knowledge of JavaScript, React JS, Redux Toolkit,
+                Typescript, Next JS, Node JS, Express, MongoDB, HTML5, CSS3,
+                Bootstrap, Tailwind, Github.
               </p>
             </div>
             <div class="col-4 d-flex justify-content-center">
@@ -114,41 +116,46 @@
         <div class="container bg-light projects-container py-1">
           <div class="row">
             <div class="col-12">
-              <h4 class="text-center py-1 py-md-2 text-decoration-underline">
+              <h4 class="text-center py-1 py-md-3 text-decoration-underline">
                 PROJECTS
               </h4>
             </div>
-            <div class="col-4">
-              <div class="card">
-                <img src="img/Foodic.png" alt="" />
-                <h5 class="text-center">Foodic App</h5>
-                <a
-                  class="text-center mb-2"
-                  href="https://github.com/Faesalkhan/Foodic"
-                  >explore it here</a
-                >
+            <div class="d-flex flex-column flex-sm-row">
+              <div class="col-8 col-sm-4 mx-auto">
+                <div class="card">
+                  <img src="img/Foodic.png" alt="" />
+                  <h5 class="text-center">Foodic App</h5>
+                  <a
+                    class="text-center mb-2"
+                    href="https://github.com/Faesalkhan/Foodic"
+                    target="_blank"
+                    >explore it here</a
+                  >
+                </div>
               </div>
-            </div>
-            <div class="col-4">
-              <div class="card">
-                <img src="img/ecommerce.png" alt="" />
-                <h5 class="text-center">TrendyShop App</h5>
-                <a
-                  class="text-center mb-2"
-                  href="https://trendy-shop-xi.vercel.app/"
-                  >explore it here</a
-                >
+              <div class="col-8 col-sm-4 mx-auto">
+                <div class="card">
+                  <img src="img/ecommerce.png" alt="" />
+                  <h5 class="text-center">TrendyShop App</h5>
+                  <a
+                    class="text-center mb-2"
+                    href="https://trendy-shop-xi.vercel.app/"
+                    target="_blank"
+                    >explore it here</a
+                  >
+                </div>
               </div>
-            </div>
-            <div class="col-4">
-              <div class="card">
-                <img src="img/Noteapp.png" alt="" />
-                <h5 class="text-center">Notes making App</h5>
-                <a
-                  class="text-center mb-2"
-                  href="https://notes-making-two.vercel.app/"
-                  >explore it here</a
-                >
+              <div class="col-8 col-sm-4 mx-auto">
+                <div class="card">
+                  <img src="img/Noteapp.png" alt="" />
+                  <h5 class="text-center">Notes making App</h5>
+                  <a
+                    class="text-center mb-2"
+                    href="https://notes-making-two.vercel.app/"
+                    target="_blank"
+                    >explore it here</a
+                  >
+                </div>
               </div>
             </div>
           </div>
@@ -163,7 +170,7 @@
                 CONTACT
               </h4>
             </div>
-            <div class="col-6">
+            <div class="">
               <div class="border-hover py-1 py-md-3 d-flex">
                 <img
                   src="img/circle.png"
@@ -175,11 +182,11 @@
                   <p class="m-0">Faisal Khan</p>
                 </div>
               </div>
-              <div class="border-hover py-1 py-md-3 d-flex">
+              <div class="py-1 py-md-3 d-flex">
                 <img src="img/gps.png" class="contact-imgs img-fluid" alt="" />
                 <div class="ms-2">
                   <h5>Address</h5>
-                  <p class="m-0">Aurangabad, Maharashtra</p>
+                  <p class="m-0">Chatrapati Sambhajinagar, Maharashtra</p>
                 </div>
               </div>
               <div class="border-hover py-1 py-md-3 d-flex">
@@ -194,7 +201,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-6">
+            <!-- <div class="col-6">
               <form>
                 <label for="name" class="form-label m-0">Name</label>
                 <input type="text" id="name" class="form-control" />
@@ -212,7 +219,7 @@
                   Send Message
                 </button>
               </form>
-            </div>
+            </div> -->
           </div>
         </div>
       </section>
