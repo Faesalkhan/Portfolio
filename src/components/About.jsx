@@ -3,7 +3,7 @@ import { User } from "lucide-react";
 
 const About = () => {
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-15 pt-22 relative z-10 bg-gradient-to-br from-slate-50 via-purple-50 to-green-100">
+    <div className="max-w-7xl min-w-[380gpx] sm:min-w-0 mx-auto px-4 sm:px-6 lg:px-8 pb-15 pt-22 relative z-10 bg-gradient-to-br from-slate-50 via-purple-50 to-green-100">
       <div className="text-center">
         <motion.div
           initial={{ scale: 0.5, opacity: 0 }}
