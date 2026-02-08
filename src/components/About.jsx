@@ -3,7 +3,45 @@ import { User } from "lucide-react";
 
 const About = () => {
   return (
-    <div className="max-w-7xl min-w-[380gpx] sm:min-w-0 mx-auto px-4 sm:px-6 lg:px-8 pb-15 pt-22 relative z-10 bg-gradient-to-br from-slate-50 via-purple-50 to-green-100">
+    <div className="max-w-7xl sm:min-w-0 mx-auto px-4 sm:px-6 lg:px-8 pb-15 pt-22 relative z-10 bg-gradient-to-br from-slate-50 via-purple-50 to-green-100">
+      <div className="absolute inset-0 overflow-hidden">
+        <motion.div
+          animate={{
+            scale: [1, 1.2, 1],
+            rotate: [0, 180, 360],
+          }}
+          transition={{
+            duration: 20,
+            repeat: Infinity,
+            ease: "linear",
+          }}
+          className="absolute top-20 left-10 w-72 h-72 bg-purple-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30"
+        />
+        <motion.div
+          animate={{
+            scale: [1.2, 1, 1.2],
+            rotate: [360, 180, 0],
+          }}
+          transition={{
+            duration: 25,
+            repeat: Infinity,
+            ease: "linear",
+          }}
+          className="absolute top-40 right-20 w-96 h-96 bg-pink-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30"
+        />
+        <motion.div
+          animate={{
+            scale: [1, 1.3, 1],
+            rotate: [0, -180, -360],
+          }}
+          transition={{
+            duration: 30,
+            repeat: Infinity,
+            ease: "linear",
+          }}
+          className="absolute bottom-20 left-1/4 w-80 h-80 bg-blue-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30"
+        />
+      </div>
       <div className="text-center">
         <motion.div
           initial={{ scale: 0.5, opacity: 0 }}
