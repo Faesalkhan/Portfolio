@@ -28,7 +28,7 @@ const Navbar = () => {
           : "bg-white"
       }`}
     >
-      <div className="max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16 lg:h-20">
           <motion.div className="hidden sm:flex items-center py-4 -mt-1">
             <p className="flex items-center text-2xl border rounded-2xl p-3 shadow-lg text-emerald-800 font-semibold h-[3.2rem] w-auto transition-all duration-300">

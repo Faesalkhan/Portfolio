@@ -9,7 +9,7 @@ import {
 
 const Contact = () => {
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-15 pt-22 relative z-10 bg-linear-to-tr from-slate-50 via-purple-50 to-green-100">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-15 pt-22 relative z-10 bg-linear-to-tl from-slate-50 via-purple-50 to-green-100">
       <div className="text-center">
         <motion.div
           initial={{ opacity: 0, y: 30 }}

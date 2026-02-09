@@ -5,7 +5,7 @@ import ecom from "../assets/ecommerce.png";
 import noteapp from "../assets/Noteapp.png";
 const Projects = () => {
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-15 pt-22 relative z-10 bg-linear-to-tr from-slate-50 via-purple-50 to-green-100">
+    <div className="max-w-7xl  mx-auto px-4 sm:px-6 lg:px-8 pb-15 pt-22 relative z-10 bg-linear-to-bl from-slate-50 via-purple-50 to-green-100">
       <div className="text-center">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -14,7 +14,6 @@ const Projects = () => {
           viewport={{ once: true }}
           className="inline-flex items-center bg-white/90 backdrop-blur-sm px-6 py-3 rounded-full shadow-lg mb-8 border border-purple-100"
         >
-          {" "}
           <motion.div
             animate={{ scale: [1, 1.2, 1] }}
             transition={{ repeat: Infinity, duration: 3 }}

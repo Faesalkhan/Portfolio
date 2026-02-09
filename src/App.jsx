@@ -10,15 +10,15 @@ function App() {
   return (
     <>
       <Navbar />
-      <main className="min-h-screen">
+      <main className="max-w-7xl mx-auto">
         <section id="about">
           <About />
         </section>
-        <section id="prjs">
-          <Projects />
-        </section>
         <section id="skills">
           <Skills />
+        </section>
+        <section id="prjs">
+          <Projects />
         </section>
         <section id="contact">
           <Contact />
